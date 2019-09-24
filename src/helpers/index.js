@@ -1,0 +1,1 @@
+export {default as swithRoutes} from './switch.helpers';
