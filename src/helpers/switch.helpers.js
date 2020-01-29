@@ -3,11 +3,11 @@ import { authConstants } from 'store/constants';
 export default function(route){
     switch (route) {
         case authConstants.ADMIN_ROLE:
-            return '/admin'
+            return '/admin';
         case authConstants.CLIENT_ROLE:
-            return '/dashboard/index'
+            return '/dashboard/index';
         case authConstants.PROVIDER_ROLE:
-            return '/cp'
+            return '/cp';
         default:
             break;
     }
