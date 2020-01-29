@@ -18,7 +18,7 @@ function getProfile(uid) {
             .then(
                 (profile) => {
                     profile=profile.data();
-                    dispatch(success(profile));
+                    dispatch(success(profile?profile:{}));
                 },
                 (error) => {
                     console.log("error");
